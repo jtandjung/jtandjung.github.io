@@ -13,10 +13,10 @@ body {
 /* Navigation Styling */
 nav {
     background-color: #fffbfb;
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     justify-content: flex-end;
-    column-gap: 34 px; 
+    gap: 34 px; 
     border-bottom: 0px solid #ccc;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* Drop shadow for nav bar */
 }
