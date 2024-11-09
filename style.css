@@ -60,3 +60,53 @@ main p {
     color: #333;
     /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); Drop shadow for paragraph */
 }
+
+/* Section to contain the card grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 1.5rem; /* Space between cards */
+    padding: 2rem;
+}
+
+/* Individual Card Styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff; /* Card background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden;
+    text-decoration: none; /* Remove link underline */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling inside Card */
+.card img {
+    width: 100%; /* Full-width image */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Crop to fit */
+}
+
+/* Card Title */
+.card h3 {
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    margin: 0.5rem 0 0.25rem 0;
+}
+
+/* Card Description */
+.card p {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: #666; /* Lighter text for description */
+    padding: 0 1rem 1rem;
+}
