@@ -13,7 +13,7 @@ body {
 /* Navigation Styling */
 nav {
     background-color: #fffbfb;
-    padding: 1rem;
+    padding: 32px 1.5rem 32px 1.5rem;
     display: flex;
     justify-content: flex-end;
     gap: 34 px; 
