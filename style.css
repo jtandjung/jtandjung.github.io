@@ -64,7 +64,7 @@ main p {
 /* Section to contain the card grid */
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    grid-template-columns: repeat(auto-fit, 300); /* Responsive columns */
     gap: 1.5rem; /* Space between cards */
     padding: 2rem;
 }
@@ -92,7 +92,7 @@ main p {
 /* Image Styling inside Card */
 .card img {
     width: 100%; /* Full-width image */
-    height: 150px; /* Fixed height */
+    height: 200px; /* Fixed height */
     object-fit: cover; /* Crop to fit */
 }
 
