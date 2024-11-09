@@ -8,12 +8,12 @@
 /* Font Styling */
 body {
     font-family: 'Readex Pro', sans-serif;
-    background-color: #f7f6f0;
+    background-color: #f7f6f5;
 }
 
 /* Navigation Styling */
 nav {
-    background-color: #f7f6f0;
+    background-color: #ffffff;
     padding: 28px 2.8rem 28px 2.8rem;
     display: flex;
     justify-content: flex-end;
