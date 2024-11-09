@@ -64,7 +64,7 @@ main p {
 /* Section to contain the card grid */
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300); /* Responsive columns */
+    grid-template-columns: repeat(auto-fill, 300); /* Responsive columns */
     gap: 1.5rem; /* Space between cards */
     padding: 2rem;
 }
