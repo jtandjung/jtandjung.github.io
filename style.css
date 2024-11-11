@@ -281,15 +281,16 @@ table {
             -ms-transition: -ms-transform 0.5s ease;
             transition: transform 0.5s ease;
             position: relative;
-            display: cover;
+            display: block;
             width: 100%;
             border-radius: 4px;
             overflow: hidden;
         }
 
             .tiles article > .image img {
-                display: cover;
+                display: block;
                 width: 100%;
+                object-fit: cover;
             }
 
             .tiles article > .image:before {
@@ -299,7 +300,7 @@ table {
                 -ms-transition: background-color 0.5s ease, opacity 0.5s ease;
                 transition: background-color 0.5s ease, opacity 0.5s ease;
                 content: '';
-                display: cover;
+                display: block;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -317,7 +318,7 @@ table {
                 -ms-transition: opacity 0.5s ease;
                 transition: opacity 0.5s ease;
                 content: '';
-                display: cover;
+                display: block;
                 position: absolute;
                 top: 0;
                 left: 0;
