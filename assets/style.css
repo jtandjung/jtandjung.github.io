@@ -447,3 +447,30 @@ main p2 {
             }
 
     }
+
+.container {
+    display: flex;
+    width: 80%; /* Adjust width as needed */
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+
+/* Text container on the left */
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Image container on the right */
+.photo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Aligns image to the right */
+}
+
+    .photo img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px; /* Optional: adds rounded corners */
+    }
