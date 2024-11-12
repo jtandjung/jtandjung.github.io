@@ -450,8 +450,7 @@ main p2 {
 
 .container {
     display: flex;
-    width: 80%; /* Adjust width as needed */
-    max-width: 1200px;
+    width: 100%; /* Adjust width as needed */
     margin: auto;
     gap: 20px;
 }
