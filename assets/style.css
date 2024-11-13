@@ -525,3 +525,15 @@ main p3 {
         height: auto;
         border-radius: 8px; /* Optional: adds rounded corners */
     }
+
+.photo-grid {
+    column-width: 150px; /* Sets a fixed width for each column */
+    column-gap: 20px;    /* Sets horizontal space between columns */
+    }
+    
+    .photo-grid img {
+    width: 100%;             /* Images fit the column width */
+    margin-bottom: 20px;     /* Sets vertical space between images */
+    border-radius: 8px;      /* Optional: Rounds image corners */
+    display: block;          /* Removes small space under images */
+    }
