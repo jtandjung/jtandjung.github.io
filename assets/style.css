@@ -511,7 +511,7 @@ main p4 {
 .photo_under {
     flex: 1;
     display: inline-grid;
-    padding: 10px;
+    padding: 20px 0 0 0;
     gap: 20px;
 }
 
