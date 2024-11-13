@@ -112,6 +112,13 @@ main p3 {
     padding: 0 3rem 0 3rem;
 }
 
+main p4 {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    text-align: justify;
+    display: flex;
+}
+
 /* Section to contain the card grid */
 .card-grid {
     display: grid;
@@ -505,7 +512,8 @@ main p3 {
 .photo {
     flex: 1;
     display: inline-grid;
-    justify-content: flex-end; /* Aligns image to the right */
+    padding: 20px;
+    gap: 20px;
 }
 
     .photo img {
