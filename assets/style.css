@@ -546,3 +546,9 @@ main p4 {
     border-radius: 8px;      /* Optional: Rounds image corners */
     display: block;          /* Removes small space under images */
     }
+
+.slides_container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
