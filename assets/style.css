@@ -508,10 +508,17 @@ main p4 {
     padding: 20px;
 }
 
-    .text img {
+.photo_under {
+    flex: 1;
+    display: inline-grid;
+    padding: 10px;
+    gap: 20px;
+}
+
+    .photo_under img {
         max-width: 100%;
         height: auto;
-        border-radius: 8px;
+        border-radius: 8px; /* Optional: adds rounded corners */
     }
 
 /* Image container on the right */
