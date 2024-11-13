@@ -107,8 +107,9 @@ main p2 {
 main p3 {
     font-size: 1.5rem;
     color: #f5f5f5;
-    text-align: left;
-    width: 90%;
+    text-align: justify;
+    display: flex;
+    padding: 0 3rem 0 3rem;
 }
 
 /* Section to contain the card grid */
