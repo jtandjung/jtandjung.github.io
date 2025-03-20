@@ -503,6 +503,14 @@ main p4 {
     gap: 20px;
 }
 
+.container2 {
+    display: flex;
+    width: 90%; /* Adjust width as needed */
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+}
+
 /* Text container on the left */
 .text {
     flex: 1;
