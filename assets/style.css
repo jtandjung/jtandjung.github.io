@@ -520,6 +520,7 @@ main p4 {
         max-width: 100%;
         height: auto;
         border-radius: 8px; /* Optional: adds rounded corners */
+        align-self: center;
     }
 
 /* Image container on the right */
