@@ -509,6 +509,7 @@ main p4 {
     margin: auto;
     gap: 20px;
     align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* Text container on the left */
