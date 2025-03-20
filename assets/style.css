@@ -503,8 +503,8 @@ main p4 {
     gap: 20px;
 }
 
-.container_about {
-    display: flex;
+.con1 {
+    display: grid;
     width: 90%; /* Adjust width as needed */
     margin: auto;
     gap: 20px;
