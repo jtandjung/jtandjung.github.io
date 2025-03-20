@@ -510,9 +510,10 @@ main p4 {
 
 .photo_under {
     flex: 1;
-    display: inline-grid;
+    display: grid;
     padding: 20px 0 0 0;
     gap: 20px;
+    grid-template-columns: 1fr 1fr;
 }
 
     .photo_under img {
