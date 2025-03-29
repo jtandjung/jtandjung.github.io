@@ -518,6 +518,11 @@ main p4 {
     padding: 20px;
 }
 
+.about_text {
+    flex: 1;
+    padding: 30px;
+}
+
 .photo_under {
     flex: 1;
     display: grid;
