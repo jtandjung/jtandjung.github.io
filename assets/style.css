@@ -77,7 +77,7 @@ nav a:hover {
 
 /* Main Content Styling */
 main {
-    padding: 1.5rem 2.5rem 0 2.5rem;
+    padding: 7rem 2.5rem 0 2.5rem;
     text-align: left;
     font-family: 'Epilogue', sans-serif;
 }
@@ -493,7 +493,6 @@ main p4 {
     width: 100%; /* Adjust width as needed */
     margin: auto;
     gap: 20px;
-    align-items: center;
     grid-template-columns: 150px 1fr 1fr 150px;
 }
 
