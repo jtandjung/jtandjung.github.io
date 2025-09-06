@@ -132,7 +132,8 @@ main p6{
 
 .project-img img{
     max-width: 100%;
-    padding: 0 0 10px 0;
+    aspect-ratio: 1;
+    object-fit: contain;
 }
 
 .project-grid {
