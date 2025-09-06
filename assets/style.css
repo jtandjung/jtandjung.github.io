@@ -114,9 +114,8 @@ main p3 {
 
 main p4 {
     font-size: 24px;
-    color: #f5f5f5;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 15px 0 15px 0;
     font-weight: 500;
 }
 
@@ -154,7 +153,7 @@ main p6{
 .card-portfolio {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 64px 1fr;
+    grid-template-rows: 54px 1fr;
     padding: 10px;
     background-color: #f5f5f5; /* Card background color */
     border-radius: 8px;
