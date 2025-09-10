@@ -162,7 +162,7 @@ main p6{
 .card h3 {
     font-size: 50px;
     font-family: 'Epilogue', sans-serif;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 2rem;
 }
 
 /* Card Description */
@@ -170,7 +170,7 @@ main p6{
     font-size: 1rem;
     font-family: 'Epilogue', sans-serif;
     color: #666; /* Lighter text for description */
-    padding: 0 1rem 1rem;
+    padding: 0 1rem 1rem 2rem;
 }
 
 /* Image */
