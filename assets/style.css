@@ -509,8 +509,7 @@ main p6{
     display: grid;
     width: 100%; /* Adjust width as needed */
     margin: auto;
-    gap: 20px;
-    grid-template-columns: 150px 1fr 1fr 150px;
+    grid-template-columns: 1fr;
 }
 
 /* Text container on the left */
@@ -520,7 +519,8 @@ main p6{
 }
 
 .about {
-    flex: 1;
+    position: fixed;
+    padding: 0px 730px 0px 160px;
 }
 
 .photo_under {
@@ -545,7 +545,7 @@ main p6{
     gap: 20px;
     justify-content: center;
     align-self: center;
-
+    padding: 0px 160px 0px 700px
 }
 
 .photo-grid {
