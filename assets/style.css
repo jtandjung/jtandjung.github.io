@@ -128,7 +128,7 @@ main p6{
 /* Section to contain the card grid */
 .card-grid {
     display: grid;
-    grid-template-rows: 300px 1fr;
+    grid-template-rows: 300px 1fr 30px;
     grid-template-columns: 1fr; /* Responsive columns */
     row-gap: 30px;
 }
