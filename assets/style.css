@@ -520,7 +520,9 @@ main p6{
 
 .about {
     position: fixed;
-    padding: 0px 730px 0px 160px;
+    right: 730px;
+    left: 160px;
+    width: 500px;
 }
 
 .photo_under {
