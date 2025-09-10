@@ -114,6 +114,10 @@ main p6{
     max-width: 100%;
     aspect-ratio: 1;
     object-fit: contain;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background: #ffffff;
+    margin-bottom: 8px;
 }
 
 .project-grid {
