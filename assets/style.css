@@ -506,9 +506,15 @@ main p6{
 
     }
 
-.container {
+.home-container {
     width: 50%; /* Adjust width as needed */
     margin: 48px 0px;
+}
+
+.container {
+    width: 95%; /* Adjust width as needed */
+    margin: auto;
+    gap: 20px;
 }
 
 .con1 {
